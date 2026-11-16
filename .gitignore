@@ -1,0 +1,19 @@
+# Pacotes gerados pelo scripts/empacotar.ps1
+dist/
+
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+
+# Arquivos de mídia e renders (não versionar vídeo/áudio pesado)
+*.mp4
+*.mov
+*.wav
+*.mp3
+out/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
