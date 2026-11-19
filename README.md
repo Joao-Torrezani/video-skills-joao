@@ -9,14 +9,16 @@ Skills do Claude que a equipe usa para editar e produzir vídeos (Reels/Shorts, 
 | [`edicao-minimal-premium`](skills/edicao-minimal-premium/SKILL.md) | Edita talking head 9:16 no estilo minimal premium com Remotion: do vídeo bruto ao plano de cenas, revisões, som e render final. Também treina o estilo a partir de vídeos de referência. |
 | [`motion-reel`](skills/motion-reel/SKILL.md) | Cria vídeo de motion renderizado por código: lançamento de produto, showreel, explicativo animado ou anúncio. |
 | [`som-e-juiz-de-video`](skills/som-e-juiz-de-video/SKILL.md) | Usada junto com qualquer edição: efeitos sonoros (SFX Kit, 320 sons CC0), trilhas CC0 e o "juiz" de edição com regras de corte, legenda, texto na tela e níveis de áudio. |
+| [`formatos`](skills/formatos/SKILL.md) | Biblioteca dos 50 formatos de Reels/TikTok que escalam (Caixinha, POV, Tela Verde, Top 5, Fofoca...): roteiro, material bruto, especificação de edição e diferença entre conteúdo e anúncio. Usada junto com qualquer skill de edição para escolher e aplicar o formato. |
 
-As três se complementam: `edicao-minimal-premium` e `motion-reel` fazem o vídeo, `som-e-juiz-de-video` cuida do som e da revisão.
+As quatro se complementam: `formatos` define a estrutura do vídeo, `edicao-minimal-premium` e `motion-reel` fazem o vídeo, `som-e-juiz-de-video` cuida do som e da revisão.
 
 ## Estrutura
 
 ```
 skills/
   edicao-minimal-premium/SKILL.md
+  formatos/SKILL.md
   motion-reel/SKILL.md
   som-e-juiz-de-video/SKILL.md
 scripts/
